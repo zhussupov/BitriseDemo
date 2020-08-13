@@ -1,0 +1,22 @@
+default_platform(:ios)
+
+lane :codeSign do
+  produce(
+    username: "ali2008_kz@mail.ru",
+    app_identifier: "com.alizhussupov.BitriseDemo",
+    app_name: "Sample App",
+    team_id: "Y22DY7UFNU",
+    skip_itc: true
+  )
+  cert(
+    username: "ali2008_kz@mail.ru",
+    team_id: "Y22DY7UFNU"
+  )
+  sigh(
+    username: "ali2008_kz@mail.ru",
+    force: true,
+    app_identifier: "com.alizhussupov.BitriseDemo",
+    team_id: "Y22DY7UFNU",
+    adhoc: true
+  )
+end

@@ -88,7 +88,6 @@
 				F1807301A31518B8050C390E /* Pods-BitriseDemo.debug.xcconfig */,
 				B34FDBC13C85CD1120F84FD2 /* Pods-BitriseDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -336,15 +335,17 @@
 			baseConfigurationReference = F1807301A31518B8050C390E /* Pods-BitriseDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2NRVCQYCJ4;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y22DY7UFNU;
 				INFOPLIST_FILE = BitriseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.BitriseDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alizhussupov.BitriseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "com.alizhussupov.BitriseDemo AdHoc";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,15 +356,17 @@
 			baseConfigurationReference = B34FDBC13C85CD1120F84FD2 /* Pods-BitriseDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2NRVCQYCJ4;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y22DY7UFNU;
 				INFOPLIST_FILE = BitriseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.BitriseDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alizhussupov.BitriseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "com.alizhussupov.BitriseDemo AdHoc";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
