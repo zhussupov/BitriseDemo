@@ -6,5 +6,6 @@ target 'BitriseDemo' do
   use_frameworks!
 
   # Pods for BitriseDemo
+  pod 'Firebase/Analytics'
 
 end
